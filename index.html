@@ -2,17 +2,28 @@
 <html lang="en">
 
 <head>
+    <link rel = "stylesheet" href = "styles\style.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <h1>Welcome to our gallery</h1>
     <p>Hover on any thumbnail to see it bigger</p>
     <div id="thumb-bar"> </div>
-    <img class="displayed-img">
+
+    <img class="choice-bar" src = "images\pic1.jpg" alt = "Pic1">
+    <img class="choice-bar" src = "images\pic2.jpg" alt = "Pic2">
+    <img class="choice-bar" src = "images\pic3.jpg" alt = "Pic3">
+    <img class="choice-bar" src = "images\pic4.jpg" alt = "Pic4">
+    <img class="choice-bar" src = "images\pic5.jpg" alt = "Pic5">
+
+    <img class="displayed-img" src = "images\pic5.jpg" alt = "Pic5">
+    
     <label>What effect do you want to apply?</label>
     <input id="effect" type="text">
     <button>Submit</button>
+    
 </body>
 
 </html>

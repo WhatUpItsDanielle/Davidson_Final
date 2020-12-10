@@ -1,3 +1,22 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 div img {
     width: 20%;
 }
+
+.choice-bar{
+    display: inline-block;
+    width: 200px;
+}
+
+#thumb-bar{
+    display:block;
+    width: 1000px;
+}
+
+@media screen and (max-width: 640px){
+
+}
+
